@@ -50,30 +50,25 @@ class Main {
         System.out.println("Результат деления на модуль: " + resultOffModuleDivision);
     }
     public static int moduleDivision(int number9 , int number10) {
-        int moduleDivision = number9 % number10;
-        int moduleDivisionResult = moduleDivision;
+        int moduleDivisionResult = number9 % number10;
         return moduleDivisionResult;
     }
     public static int multiplication(int number7, int number8) {
-        int multiplication = number7 * number8;
-        int multiplicationResult = multiplication;
+        int multiplicationResult = number7 * number8;
         return multiplicationResult;
     }
 
     public static int subtraction(int number5 , int number6) {
-        int subtraction = number5 - number6;
-        int subtractionResult = subtraction;
+        int subtractionResult = number5 - number6;
         return subtractionResult;
     }
     public static int addition(int number3 , int number4) {
-        int addition = number3 + number4;
-        int additionResult = addition;
+        int additionResult = number3 + number4;
         return additionResult;
     }
 
     public static double division(double number1 , double number2 ) {
-        double division = number1 / number2;
-        double divisionResult = division;
+        double divisionResult = number1 / number2;
         return divisionResult;
     }
 
