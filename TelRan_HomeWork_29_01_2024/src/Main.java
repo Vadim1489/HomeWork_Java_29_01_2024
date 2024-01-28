@@ -15,7 +15,7 @@ class Main {
         System.out.println("Пользователь введите второе число: ");
         double number2 = scanner.nextDouble();
         double resultOffDivision = division(number1,number2);
-        System.out.println(resultOffDivision);
+        System.out.println("Результат деления: " + resultOffDivision);
 
         System.out.println("Программа  суммирует два числа: ");
         System.out.println("Пользователь введите первое число: ");
@@ -23,7 +23,7 @@ class Main {
         System.out.println("Пользователь введите второе число: ");
         int number4 = scanner.nextInt();
         int resultOffAddition = addition(number3,number4);
-        System.out.println(resultOffAddition);
+        System.out.println("Результат суммы: " + resultOffAddition);
 
         System.out.println("Программа вычитает число: ");
         System.out.println("Пользователь введите первое число: ");
@@ -31,7 +31,7 @@ class Main {
         System.out.println("Пользователь введите второе число: ");
         int number6 = scanner.nextInt();
         int resultOffSubtraction = subtraction(number5, number6);
-        System.out.println(resultOffSubtraction);
+        System.out.println("Результат вычетания: " + resultOffSubtraction);
 
         System.out.println("Программа умножает числа: ");
         System.out.println("Пользователь введите первое число: ");
@@ -39,7 +39,7 @@ class Main {
         System.out.println("Пользователь введите второе число: ");
         int number8 = scanner.nextInt();
         int resultOffMultiplication = multiplication(number7,number8);
-        System.out.println(resultOffMultiplication);
+        System.out.println("Результат умножения: " + resultOffMultiplication);
 
         System.out.println("Программа делит число по модулю: ");
         System.out.println("Пользователь введите первое число: ");
@@ -47,7 +47,7 @@ class Main {
         System.out.println("Пользователь введите второе число: ");
         int number10 = scanner.nextInt();
         int resultOffModuleDivision = moduleDivision(number9 , number10);
-        System.out.println(resultOffModuleDivision);
+        System.out.println("Результат деления на модуль: " + resultOffModuleDivision);
     }
     public static int moduleDivision(int number9 , int number10) {
         int moduleDivision = number9 % number10;
